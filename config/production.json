@@ -1,0 +1,13 @@
+{
+  "PORT" : 3015,
+  "ATM_IDs": ["Atm-1", "Atm-2"],
+  "ACCOUNT_IDs": [{
+    "account_id" : "1001",
+    "pass_key" : "1234"
+    },
+    {
+      "account_id" : "1002",
+      "pass_key" : "4321"
+    }
+  ]
+}

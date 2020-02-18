@@ -1,0 +1,20 @@
+{
+  "name": "atm",
+  "version": "1.0.0",
+  "description": "Atm Cash withdrawal logic",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.29.4",
+    "express": "^4.16.2",
+    "joi": "^13.1.0",
+    "moment": "^2.20.1",
+    "underscore": "^1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Ashish Prasher",
+  "license": "ISC"
+}
