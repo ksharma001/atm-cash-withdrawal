@@ -30,7 +30,8 @@ API flow:
 
 Server startup:
 - code is written, compiled and tested on nodev12.
-- run npm i command and then start PM2 process
+- run npm i command and then start PM2 process using the following command
+NODE_ENV=production pm2 start app.js --name atm && pm2 logs atm
 
 
 
