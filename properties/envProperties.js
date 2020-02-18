@@ -14,7 +14,7 @@ function isEnv(env) {
 }
 
 function isEnvLive() {
-  return isEnv('live');
+  return isEnv('production');
 }
 
 function getEnv() {

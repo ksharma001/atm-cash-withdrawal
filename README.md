@@ -26,7 +26,7 @@ API flow:
 - static validations are handled by Joi and some other static validations are written in validator file
 - atmId auth check and account pass key auths are handled in middlewares
 - controller calls the relevant service to get the job done
-- dao layer fetches/saved the data from/to secondary storage
+- dao layer fetches/saves the data from/to secondary storage
 
 Server startup:
 - code is written, compiled and tested on nodev12.
